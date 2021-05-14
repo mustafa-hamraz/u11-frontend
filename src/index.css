@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shopping_app_login {
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+
+.shopping_app_list{
+  /*background-color: #f3f4f6;*/
+  background-color: #4886e488;
+  min-height: 100vh;
+}
+
+.shopping_app_list .list_item{
+  background-color: #f3f4f6;
+  border-radius: 4px;
+}
+
+.shopping_app_nav {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app_loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+/*----------------------
+new_item.js
+----------------------*/
+.new_item_close_btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.new_item_save_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
